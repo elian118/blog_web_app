@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text('Code Factory'),
+        title: const Text('Code Factory'),
         centerTitle: true,
       ),
       body: WebView(
