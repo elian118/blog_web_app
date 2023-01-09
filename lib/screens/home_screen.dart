@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class HomeScreen extends StatelessWidget {
-  WebViewController? controller;
+  WebViewController?
+      controller; // 생성자로 접근할 수 없는 멤버 변수, WebView.onWebViewCreated() 전용
 
   HomeScreen({Key? key}) : super(key: key);
 
